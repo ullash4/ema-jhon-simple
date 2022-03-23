@@ -6,6 +6,13 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 45px;
+    grid-gap: 20px;
     padding: 50px;
+}
+.cart-container{
+    background: rgba(255, 153, 0, 0.3);
+    padding: 10px;
+}
+.cart-container h1{
+    text-align: center;
 }

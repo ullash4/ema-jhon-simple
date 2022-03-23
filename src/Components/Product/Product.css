@@ -16,6 +16,9 @@
     margin-left: 10px;
     margin-bottom: 10px;
 }
+.cart-btn p{
+    margin-right: 10px;
+}
 .cart-btn{
     width: 100%;
     background: #FFE0B3;
@@ -24,6 +27,9 @@
     position: absolute;
     bottom: 0;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cart-btn:hover{
     background: orange;
