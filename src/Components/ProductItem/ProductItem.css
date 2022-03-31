@@ -1,0 +1,23 @@
+.product-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid black;
+   margin: 20px;
+   width: 550px;
+   padding: 15px;
+   border-radius: 10px;
+   background-color: #FFE0B3;
+}
+.review-product-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review-product-details{
+    display: flex;
+    flex-direction: column;
+}
+.review-product-details p{
+    margin: 0 10px;
+}

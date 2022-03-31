@@ -12,7 +12,7 @@ const Orders = () => {
 
     return (
         <div className='shop-container'>
-            <div className='products-container'>
+            <div className='reivew-container'>
                 {
                     cart.map(product=><ProductItem key={product.id} product={product}></ProductItem>)
                 }
