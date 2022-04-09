@@ -22,8 +22,6 @@ const Cart = ({cart, children}) => {
                 <h3>Tax : $ {tax}</h3>
                 <h3>Grand Total : $ {grandTotal.toFixed(2)}</h3>
                 <div className='align'>
-                {/* <button className='btn'>Clear Cart</button> <br></br>
-                <button className='btn'>Review Order</button> */}
                 {children}
                 </div>
         </div>

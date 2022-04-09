@@ -3,9 +3,11 @@ import './App.css';
 import About from './Components/About/About';
 import Header from './Components/Header/Header';
 import Inventory from './Components/Inventory/Inventory';
+import LogIn from './Components/LogIn/LogIn';
 import Nfound from './Components/NotFound/Nfound';
 import Orders from './Components/Orders/Orders';
 import Shop from './Components/Shop/Shop';
+import SignUp from './Components/SignUp/SignUp';
 
 function App() {
   return (
@@ -17,9 +19,10 @@ function App() {
         <Route path='/orders' element={<Orders></Orders>}></Route>
         <Route path='/inventory' element={<Inventory></Inventory>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/login' element={<LogIn></LogIn>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='*' element={<Nfound></Nfound>}></Route>
       </Routes>
-      {/* <Shop></Shop> */}
     </div>
   );
 }
