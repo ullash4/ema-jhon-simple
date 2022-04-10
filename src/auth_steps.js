@@ -10,6 +10,8 @@
  * 9. useCreateUserWithEmailAndPassword from react-firebase-hooks
  * 10. if user create redirect to shop page
  * 11. useSignInWithEmailAndPassword from react-firebase-hooks for sign in
+ * 12. created requireauth 
+ * 13. in route wrap protected component by using requireauth
 */
 
 

@@ -16,3 +16,17 @@
 .headerA a:hover{
     color: chocolate;
 }
+.sign-out{
+    padding: 8px 10px;
+    margin-left: 20px;
+    background-color: chocolate;
+    border: 0;
+    border-radius: 5px; 
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.sign-out:hover{
+    background-color: black;
+    
+}
