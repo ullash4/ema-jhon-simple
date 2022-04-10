@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FcGoogle } from 'react-icons/fc';
 import "./LogIn.css";
 
 const LogIn = () => {
@@ -34,6 +35,7 @@ const LogIn = () => {
         </div>
         <div className="input-wrapper">
           <button className="google-auth">
+          <span className="img-icon"><FcGoogle/></span>
             <p> Continue with Google </p>
           </button>
         </div>
