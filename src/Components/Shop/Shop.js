@@ -15,11 +15,11 @@ const Shop = () => {
   const [products, setProducts] = useState([])
 
     useEffect(()=>{
-      const url = `http://localhost:5000/product?page=${page}&size${size}`
+      const url = `http://localhost:5000/product?page=${page}&size=${size}`
         fetch(url)
         .then(res => res.json())
         .then(data => setProducts(data))
-    },[]);
+    },[page, size]);
 
 
   useEffect(() => {
@@ -81,7 +81,7 @@ const Shop = () => {
           {
             [...Array(pageCount).keys()].map(number=> <button
                className={`btn ${page === number && "selected"}`} 
-               onClick={()=>setPage(number)}>{number}</button> )
+               onClick={()=>setPage(number)}>{number+1}</button> )
           }
           <select className="btn" onClick={(e)=>setSize(e.target.value)}>
             <option value="5">5</option>
