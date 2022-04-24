@@ -16,3 +16,7 @@
 .cart-container h1{
     text-align: center;
 }
+.pagination .selected{
+    background-color: orange;
+    color: black;
+}
